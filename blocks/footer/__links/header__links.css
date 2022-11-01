@@ -1,0 +1,44 @@
+.footer__links{
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    gap: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+
+    .footer__links {
+      width: 50.11%;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .footer__links {
+      width: 64.58%;
+    }
+  
+  }
+  
+  @media (max-width: 700px) {
+  
+    .footer__links {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+  
+  
+ @media (max-width: 320px) {
+  
+    .footer__links {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  } 
+  

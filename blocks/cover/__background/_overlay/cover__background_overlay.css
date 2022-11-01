@@ -1,0 +1,14 @@
+.cover__background_overlay:before {
+    background: rgba(	42, 44, 47, 0.2);
+    transition: ease-in 0.4s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .cover__background_overlay:hover:before {
+    background: rgba(	42, 44, 47, 0.8);
+  }
